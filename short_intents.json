@@ -1,0 +1,32 @@
+{"intents":  [
+  {
+    "tag": "greeting",
+    "patterns": ["hey", "hello", "what is up"],
+    "responses": ["Hello", "Hi there"]
+  },
+  {
+    "tag": "stocks",
+    "patterns": ["show me my stocks"],
+    "responses": ["Okay", "Here are your stocks"]
+  },
+  {
+    "tag": "todoshow",
+    "patterns": ["show me my todo list", "show todos", "what are my todos", "what does my todo list look like today"],
+    "responses": ["Here is your todo list"]
+  },
+  {
+    "tag": "todoadd",
+    "patterns": ["add this to my todo list", "add to my todo list", "add"],
+    "responses": ["okay"]
+  },
+  {
+    "tag": "todoremove",
+    "patterns": ["remove an item from my todo list", "remove from my todo list", "remove"],
+    "responses": ["okay"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["bye bye", "goodbye", "bye"],
+    "responses": ["bye"]
+  }
+]}
